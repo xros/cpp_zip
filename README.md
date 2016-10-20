@@ -46,3 +46,5 @@ We will use `libquazip.so` to build compressing/decompressing applications.
 This project demonstrates how to compress / decompress files in C++ using zlib and quazip.
 
 Please look at the main file `myzip1/main.cpp`
+
+Video tutorials can be found at [here](https://www.youtube.com/watch?v=mxlcKmvMK9Q) [there](https://www.youtube.com/watch?v=bVqVR2V3n3M) Thanks to [VoidRealms](voidrealms.com)
