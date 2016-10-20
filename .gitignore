@@ -1,5 +1,12 @@
+# for this test
+test.zip
+NewDir
+
 # quazip desktop debug
-#build-quazip-Desktop-Debug
+build-quazip-Desktop-Debug
+build-quazip-Desktop-Release
+build-myzip1-Desktop-Debug
+build-myzip1-Desktop-Release
 # editor caches
 *.swp
 *.swq

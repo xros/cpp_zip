@@ -40,11 +40,11 @@ INCLUDEPATH += $$(LIBDIR_UNIX)
 INCLUDEPATH += $$(LIBDIR_WIN32)
 
 unix {
-    LIB += -L$${LIBDIR_UNIX} -lz
+    LIBS += -L$${LIBDIR_UNIX} -lz
 }
 
 win32 {
-    LIB += -L$${LIBDIR_WIN32} -lzdll
+    LIBS += -L$${LIBDIR_WIN32} -lzdll
 }
 
 

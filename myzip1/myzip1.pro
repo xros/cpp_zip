@@ -14,27 +14,29 @@ TEMPLATE = app
 
 # Set variables
 ## need to change on your local machine
-#QUAZIP_CODEDIR = "/home/alex/joy/cpp_zip/quazip-0.7.2/quazip/"
-#ZLIB_CODEDIR = "/home/alex/joy/cpp_zip/zlib-1.2.8/"
+#QUAZIPCODEDIR = "/home/alex/joy/cpp_zip/quazip-0.7.2/quazip/"
+#ZLIBCODEDIR = "/home/alex/joy/cpp_zip/zlib-1.2.8/"
 
 ## OR use a precompiled path
-QUAZIP_CODEDIR = "/home/alex/joy/cpp_zip/quazip-0.7.2/quazip/"
-ZLIB_CODEDIR = "/home/alex/joy/cpp_zip/Libs/Unix/"
+QUAZIPCODEDIR = "/home/alex/joy/cpp_zip/quazip-0.7.2/quazip/"
+ZLIBCODEDIR = "/home/alex/joy/cpp_zip/Libs/Unix/"
 
 # include the compiled code
 unix {
-    LIBS += -L$${ZLIB_CODEDIR}} -lz
+    LIBS += -L$${ZLIBCODEDIR} -lz
 }
 
 win32 {
-    LIBS += -L$${ZLIB_CODEDIR}} -lzdll
-
+    LIBS += -L$${ZLIBCODEDIR} -lzdll
 }
 
 # include files
-INCLUDEPATH += $${QUAZIP_CODEDIR}
-HEADERS += $${QUAZIP_CODEDIR}/*.h
+INCLUDEPATH += $${QUAZIPCODEDIR}
+HEADERS += $${QUAZIPCODEDIR}/*.h
 
+
+SOURCES += $${QUAZIPCODEDIR}/*.cpp
+SOURCES += $${QUAZIPCODEDIR}/*.c
 
 SOURCES += main.cpp\
         mainwindow.cpp
