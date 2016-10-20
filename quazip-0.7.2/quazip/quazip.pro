@@ -30,6 +30,24 @@ DEFINES += QUAZIP_BUILD
 # than qmake or using QuaZIP sources directly in your project.
 CONFIG(staticlib): DEFINES += QUAZIP_STATIC
 
+
+################# FOR compiling quazip and zlib  by xros #######################
+LIBDIR_UNIX += "/home/alex/joy/cpp_zip/Libs/Unix/"
+LIBDIR_WIN32 += "/home/alex/joy/cpp_zip/Libs/Windows/"
+
+
+INCLUDE_PATH += $$(LIBDIR_UNIX)
+INCLUDE_PATH += $$(LIBDIR_WIN32)
+
+unix {
+    LIB += -L$${LIBDIR_UNIX} -lz
+}
+
+win32 {
+    LIB += -L$${LIBDIR_WIN32} -lzdll
+}
+
+
 # Input
 include(quazip.pri)
 
