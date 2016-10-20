@@ -36,8 +36,8 @@ LIBDIR_UNIX += "/home/alex/joy/cpp_zip/Libs/Unix/"
 LIBDIR_WIN32 += "/home/alex/joy/cpp_zip/Libs/Windows/"
 
 
-INCLUDE_PATH += $$(LIBDIR_UNIX)
-INCLUDE_PATH += $$(LIBDIR_WIN32)
+INCLUDEPATH += $$(LIBDIR_UNIX)
+INCLUDEPATH += $$(LIBDIR_WIN32)
 
 unix {
     LIB += -L$${LIBDIR_UNIX} -lz
