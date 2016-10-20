@@ -1,9 +1,9 @@
 # quazip desktop debug
 #build-quazip-Desktop-Debug
 # editor caches
-.swp
-.swq
-.swo
+*.swp
+*.swq
+*.swo
 *~
 # Prerequisites
 *.d
