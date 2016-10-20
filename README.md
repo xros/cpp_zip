@@ -24,7 +24,7 @@ In file `quazip.pro`, change the value of `LIBDIR_UNIX` or `LIBDIR_WIN32` to you
 
 Copy file `zlib.h, zconf.h` from zlib-1.2.8 and in qt creator add click **Add Existing Files ...** to add these 2 files again to the project.
 
-Then click build of this `quazip` project. If promising, you will find a dolder named `build-quazip-Desktop-Debug` which contains dynamic libs you have just compiled.
+Then click build of this `quazip` project. If promising, you will find a folder named `build-quazip-Desktop-Debug` which contains dynamic libs you have just compiled.
 
 ### Pre-compiled libs included for future development
 
@@ -39,6 +39,6 @@ We will use `libquazip.so` to build compressing/decompressing applications.
 
 ## myzip1
 
-This demonstrates how to compress / decompress files in C++ using zlib and quazip.
+This project demonstrates how to compress / decompress files in C++ using zlib and quazip.
 
 Please look at the main file `myzip1/main.cpp`
