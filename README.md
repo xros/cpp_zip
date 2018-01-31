@@ -2,8 +2,16 @@ Compress Files and Decompress Files
 ==================================
 Let's do it
 
+This is compiled/written on Linux(Ubuntu14.04) with gcc 4.8.2, Qt 5.2.1, Qt Creator 3.0.1 with an empty GUI which works actually by the time of writting.
+
 ### What is this?
 This is a file compressor in C++ built from stratch. Will add GUI in the future.
+
+### How to open it?
+Use Qt creator to open the project file `cpp_zip/myzip1/myzip1.pro`
+
+Structure looks like this
+    ![img](static/snapshot376.png)
 
 
 ### Who are they?
