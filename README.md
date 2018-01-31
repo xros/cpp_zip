@@ -56,7 +56,7 @@ This project demonstrates how to compress / decompress files in C++ using zlib a
 
 What does it look like after being started?
 
-    ![img2](static/snapshot377.png)
+   ![img2](static/snapshot377.png)
 
 Please look at the main file `myzip1/main.cpp`
 
