@@ -12,7 +12,7 @@ Use Qt creator to open the project file `cpp_zip/myzip1/myzip1.pro`
 
 Structure looks like this
 
-    ![img](static/snapshot376.png)
+   ![img](static/snapshot376.png)
 
 
 ### Who are they?
