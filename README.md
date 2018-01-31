@@ -11,6 +11,7 @@ This is a file compressor in C++ built from stratch. Will add GUI in the future.
 Use Qt creator to open the project file `cpp_zip/myzip1/myzip1.pro`
 
 Structure looks like this
+
     ![img](static/snapshot376.png)
 
 
@@ -52,6 +53,10 @@ We will use `libquazip.so` to build compressing/decompressing applications.
 ## myzip1
 
 This project demonstrates how to compress / decompress files in C++ using zlib and quazip.
+
+What does it look like after being started?
+
+    ![img2](static/snapshot377.png)
 
 Please look at the main file `myzip1/main.cpp`
 
